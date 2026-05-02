@@ -4,7 +4,7 @@ import { VitePWA } from 'vite-plugin-pwa'
 
 // https://vite.dev/config/
 export default defineConfig({
-  base: '/calculator/',
+  base: '/Calculator/',
   plugins: [
     react(),
     VitePWA({
@@ -19,8 +19,8 @@ export default defineConfig({
         theme_color: '#121212',
         background_color: '#121212',
         display: 'standalone',
-        start_url: '/calculator/',
-        scope: '/calculator/',
+        start_url: '/Calculator/',
+        scope: '/Calculator/',
         icons: [
           {
             src: 'pwa-192x192.png',
